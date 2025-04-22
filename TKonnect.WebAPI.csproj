@@ -4,9 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/a6918e68-3dda-4442-ae6a-5140eac7dfeb/resourceGroups/az-tkonnectmain-rg/providers/microsoft.insights/components/TKonnect-WebAPI</ApplicationInsightsResourceId>
+    <UserSecretsId>9e121c30-d82e-4e73-b054-311679d99ca6</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
