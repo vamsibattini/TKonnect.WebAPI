@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net7.0\\publish",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/a6918e68-3dda-4442-ae6a-5140eac7dfeb/resourceGroups/appsvc_windows_westus2/providers/Microsoft.Web/sites/az-tkonnectwebapi-main-app"
+}
